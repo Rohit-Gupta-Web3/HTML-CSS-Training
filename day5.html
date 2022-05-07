@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Day 5</title>
+    <script type="text/javascript">
+        function submit() {}
+    </script>
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form class="form">
+        <div>
+            <label for="name" class="label">Name</label>
+            <input type="text" name="name" class="input" id="name">
+        </div>
+        <br />
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+        </div>
+        <br />
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password">
+        </div>
+        <br />
+        <div>
+            <label for="password_confirmation">Password Confirmation</label>
+            <input type="password" name="password_confirmation" id="password_confirmation">
+        </div>
+        <br />
+        <div>
+            <label for="country">Country</label>
+            <select name="country" id="country">
+                <option value="">Select Country</option>
+                <option value="india">India</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+            </select>
+        </div>
+        <br />
+        <button type="submit" action="submit()" class="submit">Submit</button>
+        <button type="reset" class="reset">Reset</button>
+    </form>
+</body>
+
+</html>

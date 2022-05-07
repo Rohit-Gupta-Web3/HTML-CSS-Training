@@ -1,0 +1,14 @@
+.submit {
+    background-color: green;
+    color: rgb(245, 245, 215);
+}
+
+.reset {
+    background-color: red;
+    color: rgb(245, 245, 215);
+}
+
+.input, .label {
+    background-color: rgb(245, 245, 215);
+    color: rgb(0, 0, 0);
+}
